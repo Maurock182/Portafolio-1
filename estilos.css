@@ -1,0 +1,162 @@
+
+
+    {
+    margin: 0;
+    padding:30 ;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: chocolate;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+.contenedor{
+    width: 90%;
+    max-width: 880px;
+    margin: auto;
+}
+
+
+header.logo {
+    width: 100%;
+    padding: 40px;
+    background-color: aquamarine;
+    color: rgb(53, 42, 31);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+header.logo p {
+    color: azure;
+
+}
+header form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+header.barra-busqueda{
+    width: 70%;
+    line-height: 40px;
+    height: 40px;
+    background: bisque;
+    padding: o 20px;
+    text-align: center;
+    font-size: 16px;
+
+
+}
+header.categorias {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+header.categorias a {
+    color: bisque;
+    margin: 10 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+header.categorias a.activo {
+color: black;
+
+}
+
+
+footer {
+    text-align: center;
+
+}
+
+.solo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 38px;
+    text-shadow: darkblue;
+}
+
+.otro {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 38px;
+    text-shadow:rgb(34, 34, 41);
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: darkorange;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.flex-container>img {
+    background-color: darksalmon;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+h3{
+    width: 100%;
+    margin: 40px;
+}
+
+img.ul {
+    box-shadow: darkslateblue;
+    border: 20px seagreen;
+
+}
+
+.circulo {
+    border-radius: 50%;
+}
+
+li>a {
+    color: seashell;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    align-content: center;
+    height: 5cm;
+    background-color: springgreen;
+
+}
+
+@media(max-width:463px) {
+    ul {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        height: 90vh;
+        width: 55%;
+        background-color:cornsilk;
+    }
+
+    li>a {
+        font-size: 2em;
+    }
+
+
+    body {
+        margin: 0 auto;
+
+    }
